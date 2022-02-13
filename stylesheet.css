@@ -3,6 +3,12 @@
     padding: 0;
     text-decoration: none;
 }
+h1{
+    font-family: sans-serif;
+}
+p{
+    font-family: arial;
+}
 body{
     background-color: whitesmoke;
 }
@@ -10,36 +16,24 @@ body{
 a i {
     font-size: 3.5vw;
 }
-
-a i:hover{
-    font-size: 4.5vw;
-}
-h1{
-    font-size: 5vw;
-    font-family: 'Times New Roman', Times, serif;
-}
-p{
-    font-size: 1.3vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+i:hover{
+    color: wheat;
 }
 main h1{
     position: relative;
     left: 1.5vw;
+    font-size: 3.5vw;
+    font-family: 'Times New Roman', Times, serif;
 }
-main p{
-    position: relative;
-    left: 2vw;
-}
-
-
 header nav{
-    height: 5.5vw;
+    height: 4.5vw;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-header a{
-    margin-left: 2.5vw;
-    font-size: 2vw;
-    color: crimson;
+header .navbar a{
+    margin-left: 2.8vw;
+    font-size: 1.5vw;
+    letter-spacing: .25vw;
+    color: black;
     text-decoration: none;
     transition: all ease-in-out .5s;
 }
@@ -52,12 +46,11 @@ header a .logo {
     font-size: 4.5vw;
     float: left;
 }
-.navbar a{
-    font-size: 1.8vw;
-    letter-spacing: .2vw;
-    text-decoration: none;
-    color: black;
-    margin-right: .5vw;
+.navbar {
+    margin-right: 1.5vw;
+    float: right; 
+    vertical-align: middle; 
+    padding-top: 1.1vw;
 }
 main table{
     margin-top: 2vw;
@@ -67,18 +60,83 @@ main table{
 main {
     margin-top: 2vw;
 }
- button{
+main p{
+    position: relative;
+    left: 2vw;
+    font-size: 1.1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main table button{
+    position: relative;
+    left: 2vw;
     padding: .8vw;
     background: crimson;
     color: whitesmoke;
     align-items: center;
     border: none;
     border-radius: .5vw;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    cursor: pointer;
 }
+/*
 .btn {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}*/
+main img{
+    position: relative;
+    right: 3vw;
+    padding: 3vw 0 3vw 0;
 }
+main form{
+    padding: 3vw 25vw 3vw 25vw;
+}
+input[type="text"]:focus, 
+input[type="email"]:focus{
+    width: 75%;
+}
+.theInput{
+    border: none;
+    width: 50%;
+    padding: .8vw;
+    background-color: none;
+    border-bottom: .1vw solid black;
+    transition: width .35s ease-in-out;
+    background-color: rgba(0, 0, 0, 0);
+}
+.theInput:focus{
+    border: none;
+    border-bottom: .1vw solid black;
+    background: wheat;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 20px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
+}
+
+label, form p{
+    font-size: 1.3vw;
+    font-family: Arial;
+}
+form p{
+    text-align: center;
+    font-size: 1.5vw;
+}
+input[type="radio"]{
+    margin-left: 2vw;
+}
+form button{
+    width: 31.5vw;
+    font-size: 1.3vw;
+    padding: 1.1vw;
+    border-radius: 1.2vw;
+    background-color: crimson;
+    cursor: pointer;
+}
+form button:hover,
+main table button:hover {
+    padding: 1.3;
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 20px,
+    rgba(0, 0, 0, 0.3) 0px 6px 6px;
+}
+
+
 footer{
     background-color: black;
     margin-top: 2vw;
@@ -94,6 +152,21 @@ footer a{
     margin-left: 2.5vw; 
     font-size: 2vw; 
     color: crimson;
+}
+footer iframe{
+    position: relative;
+    right: 2vw;
+    padding: 2vw 0 2vw 0;
+}
+footer h2{
+    position: relative;
+    left: 1vw;
+    font-family: sans-serif;
+}
+footer table p{
+    position: relative;
+    left: 2vw;
+    font-family: arial;
 }
 footer p span a{
     margin-left: 2vw;
