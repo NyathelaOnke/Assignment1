@@ -24,7 +24,7 @@
         
         <!-- the main content begins here -->
         <main>
-            <form style="background-color: blanchedalmond;">
+            <form action="https://formspree.io/f/mbjwowpa" method="POST">
                 <label for="fname">First name:</label><br>
                 <input type="text" class="theInput" name="fname" placeholder="John"> <br><br><br>
                 <label for="lname">Surname:</label><br>
@@ -44,10 +44,9 @@
                 <input type="date" class="theInput" name="date"><br><br><br>
                 <label for="moreInfo">Any extra details:</label><br>
                 <textarea class="theInput" style="height: 15vw; width: 30vw;" type="text" name="moreInfo" placeholder="Any extra information you want to submit"></textarea><br><br>
-                <button class="btn" type="button" >submit</button>
-<!---->
+                <button class="btn" type="button" onclick="formSubmitted()" >submit</button>
             </form>
-        </main>
+        </main> 
         <!-- the main content ends here -->
 
         <!-- the footer begins here -->
@@ -56,10 +55,7 @@
                 <tr>
                     <td style="width: 40%;">
                         <h2>About Me</h2>
-                        <br>
-                        <p>My name is Onke Nyathela, I am currently based in Johannesburg and willing to relocate. I am 26 years old, born and bred in Dutywa, in the Eastern Cape
-                        I went to the University Currently known as Rhodes University and studied Computer Sciences. Due to difficulties I couldn't finish my studies. However, my love for programming remained and it is for this reason I am currently a freelance web developer.</p>
-                        <br>
+                        <p id="footerBio"></p>
                         <a href="https://www.facebook.com/onke.nyathela.7/" target="_blank" <i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href="onkenyathela7@gmail.com" target="_blank" <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/zanembalikazizi/" target="_blank" <i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -75,6 +71,6 @@
             </table>
             <p style=" text-align: center; color: whitesmoke; background-color: rgb(77, 73, 73); width: 100%;"> <span>&copy; ON Web Developments | Designed by <a style="color: crimson; text-decoration: none;" href="#">Onke Nyathela</a></span>  </p>
         </footer>
-        <!-- The footer ends he -->
     </body>
+    <script src="script.js"></script>
 </html>

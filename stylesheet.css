@@ -109,6 +109,9 @@ input[type="email"]:focus{
     color: black;
     box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 20px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
 }
+form{
+    background-color: blanchedalmond;
+}
 
 label, form p{
     font-size: 1.3vw;
@@ -148,6 +151,9 @@ footer p span{
     background: rgb(77, 73, 73);
     width: 100%;
 }
+footer table p{
+    font-size: 1.2vw;
+}
 footer a{
     margin-left: 2.5vw; 
     font-size: 2vw; 
@@ -166,6 +172,7 @@ footer h2{
 footer table p{
     position: relative;
     left: 2vw;
+    font-size: 1.1vw;
     font-family: arial;
 }
 footer p span a{
