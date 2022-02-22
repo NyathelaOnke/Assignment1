@@ -23,7 +23,7 @@ main h1{
     position: relative;
     left: 1.5vw;
     font-size: 3.5vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 header nav{
     height: 4.5vw;
@@ -76,11 +76,8 @@ main table button{
     border: none;
     border-radius: .5vw;
     cursor: pointer;
+    transition: all ease-in-out .45s;
 }
-/*
-.btn {
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-}*/
 main img{
     position: relative;
     right: 3vw;
@@ -131,6 +128,7 @@ form button{
     border-radius: 1.2vw;
     background-color: crimson;
     cursor: pointer;
+    transition: all ease-in-out .45s;
 }
 form button:hover,
 main table button:hover {
@@ -174,6 +172,7 @@ footer table p{
     left: 2vw;
     font-size: 1.1vw;
     font-family: arial;
+    font-size: 1.1vw;
 }
 footer p span a{
     margin-left: 2vw;
