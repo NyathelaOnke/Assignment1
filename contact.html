@@ -29,13 +29,13 @@
                 method="POST">
                 
                 <label for="fname">First name:</label><br>
-                <input type="text" class="theInput" name="fname" placeholder="John"> <br><br><br>
+                <input type="text" class="theInput" name="fname" placeholder="John" required> <br><br><br>
                 <label for="lname">Surname:</label><br>
-                <input type="text" class="theInput" name="lname" placeholder="Doe"><br><br><br>
+                <input type="text" class="theInput" name="lname" placeholder="Doe" required><br><br><br>
                 <label for="email">Email:</label><br>
-                <input type="email" class="theInput" name="email" placeholder="johndoe@gnail.com"><br><br><br>
+                <input type="email" class="theInput" name="email" placeholder="johndoe@gnail.com" required><br><br><br>
                 <label for="number">Your contact number:</label> <br>
-                <input type="number" class="theInput" name="number" placeholder="0123456789"><br><br><br>
+                <input type="number" class="theInput" name="number" placeholder="0123456789" required><br><br><br>
                 <p>Reason for contact</p><br>
                 <input type="radio" id="colab" name="reason" >  
                 <label for="colab">Collaboration on a project</label>
@@ -44,25 +44,11 @@
                 <input type="radio" id="website" name="reason">
                 <label for="website">Want a website</label> <br><br><br>
                 <label for="date" >Date expecting reply by (latest)</label><br>
-                <input type="date" class="theInput" name="date"><br><br><br>
+                <input type="date" class="theInput" name="date" required><br><br><br>
                 <label for="moreInfo">Any extra details:</label><br>
                 <textarea class="theInput" style="height: 15vw; width: 30vw;" type="text" name="moreInfo" placeholder="Any extra information you want to submit"></textarea><br><br>
                 <button class="btn" type="button" onclick="formSubmitted()" >submit</button>
             </form>
-            <form
-  action="https://formspree.io/f/mbjwowpa"
-  method="POST"
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
         </main> 
         <!-- the main content ends here -->
 
